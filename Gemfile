@@ -3,10 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
 
-gem 'railties', '~> 6.0', '>= 6.0.2.2'
+gem 'railties', '~> 6.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
+gem 'rails', '~> 6.0.3'
 
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'bootstrap', '~> 4.4', '>= 4.4.1'
@@ -35,7 +35,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 
-gem 'activesupport', '~> 6.0', '>= 6.0.2.1'
+gem 'activesupport', '~> 6.0'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
