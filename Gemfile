@@ -16,7 +16,7 @@ gem 'wdm', '>= 0.1.0'
 gem 'rails_12factor'
 
 # Use Puma as the app server
-gem 'puma', '~> 3.4'
+gem 'puma', '~> 4.3'
 
 
 
